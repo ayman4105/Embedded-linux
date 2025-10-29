@@ -1,0 +1,109 @@
+1- ubuntu - arch - fedora
+
+2-used for lest info such (name - synopsis)
+
+3- rm ---> remove files 
+
+  rmdir-----> remove empty files 
+
+
+
+4-
+
+```
+ayman@ayman-Lat5:~$ mkdir -p dir1/dir11 
+ayman@ayman-Lat5:~$ mkdir -p dir1/dir12
+ayman@ayman-Lat5:~$ mkdir -p dir11/file1
+ayman@ayman-Lat5:~$ tree dir1
+dir1
+├── dir11
+│   └── file1
+└── dir12
+
+
+
+ayman@ayman-Lat5:~$ tree docs
+docs
+└── mycv
+
+
+ayman@ayman-Lat5:~$ tree Documents/
+Documents/
+└── Oldfiles
+
+0 directories, 1 file
+ayman@ayman-Lat5:~$ 
+
+```
+
+a-rmdir: failed to remove 'dir1/dir11': Directory not empty to overcome use rm command 
+
+b- the rmdir command used to remove empty directories only , but oldfiles is a file not directory
+
+c- ayman@ayman-Lat5:~/docs$ pwd mycv 
+/home/ayman/docs
+
+5- ayman@ayman-Lat5:~$ cp /etc/passwd passwordfile
+
+6- ayman@ayman-Lat5:~$ **mv** **passwordfile** **newpass**
+ayman@ayman-Lat5:~$ ls
+Desktop  docs       lab1        Pictures  STM32Cube     Videos
+dir1     Documents  linux_chat  Public    STM32CubeIDE  workspace
+dir11    Downloads  Music       snap      Templates
+dir12    ITI        **newpass**     st        testgit
+ayman@ayman-Lat5:~$ 
+
+
+
+7- 1-ayman@ayman-Lat5:/usr/bin$ cd ~
+
+     2-ayman@ayman-Lat5:/$ cd usr/bin/
+      ayman@ayman-Lat5:/usr/bin$ cd 
+      ayman@ayman-Lat5:~$ 
+      
+      3- ayman@ayman-Lat5:/usr/bin$ cd /home/ayman
+         ayman@ayman-Lat5:~$ 
+         
+      4- ayman@ayman-Lat5:/usr/bin$ cd .. 
+        ayman@ayman-Lat5:/usr$ cd ..
+        ayman@ayman-Lat5:/$ cd /home/ayman/
+        ayman@ayman-Lat5:~$    
+8-ayman@ayman-Lat5:~$ cd /
+ayman@ayman-Lat5:/$ cd usr/bin/
+ayman@ayman-Lat5:/usr/bin$ ls /usr/bin/w*
+/usr/bin/w           /usr/bin/whatis             /usr/bin/whoopsie
+/usr/bin/wall        /usr/bin/whereis            /usr/bin/whoopsie-preferences
+/usr/bin/watch       /usr/bin/which              /usr/bin/word-list-compress
+/usr/bin/watchgnupg  /usr/bin/which.debianutils  /usr/bin/wpa_passphrase
+/usr/bin/wc          /usr/bin/whiptail           /usr/bin/write
+/usr/bin/wdctl       /usr/bin/who                /usr/bin/write.ul
+/usr/bin/wget        /usr/bin/whoami
+ayman@ayman-Lat5:/usr/bin$ 
+
+
+
+9-ayman@ayman-Lat5:/usr/bin$ type pwd
+    pwd is a shell builtin
+
+10- ayman@ayman-Lat5:/usr/bin$ type -a cat 
+     cat is /usr/bin/cat
+     cat is /bin/cat
+
+
+
+11- ayman@ayman-Lat5:~$ man -k file read
+
+
+
+12-The `apropos` command is used to search the manual page descriptions for a given keyword
+ayman@ayman-Lat5:~$ apropos copy
+Clone (3pm)          - recursively copy Perl datatypes
+bcopy (3)            - copy byte sequence
+btrfs-select-super (8) - overwrite primary superblock with a backup copy
+copy_file_range (2)  - Copy a range of data from one file to another
+copysign (3)         - copy sign of a number
+copysignf (3)        - copy sign of a number
+copysignl (3)        - copy sign of a number
+
+
+
