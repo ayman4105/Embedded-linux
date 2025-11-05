@@ -1,0 +1,631 @@
+    1  ls dev/pts/
+    2  ls /dev/pts/
+    3  sudo passwd root 
+    4  su
+    5  sudo apt install build-essential 
+    6  gcc
+    7  dfdfdfd
+    8  sudo apt install flatpak gnome-sofware gnome-software-plugin-flatpak 
+    9  sudo apt install flatpak gnome-software gnome-software-plugin-flatpak 
+   10  flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+   11  sudo apt install nginx
+   12  sudo apt install curl wget vim git build-essential htop python3
+   13  sudo apt install git 
+   14  ls
+   15  cd Downloads/
+   16  ls 
+   17  ls /
+   18  cd proc
+   19  cd ..
+   20  cd proc
+   21  cd /
+   22  cd proc
+   23  ls
+   24  cd ..
+   25  cd home
+   26  cd ..
+   27  cd ~
+   28  cd ..
+   29  cd home 
+   30  ls 
+   31  cd ..
+   32  cd ~
+   33  htop
+   34  sudo apt install python-is-python3 python3-pip
+   35  sudo apt install python-is-python3 python3-pip python3-venv 
+   36  ls/
+   37  ls /
+   38  cd ..
+   39  cd dev
+   40  ls 
+   41  cd ~
+   42  cd /
+   43  ls
+   44  cs ~
+   45  cd ~
+   46  cd etc
+   47  cd/
+   48  cd /
+   49  ls
+   50  cd etc
+   51  ls 
+   52  cd ~
+   53  mkdir ayman 
+   54  cd ayman/
+   55  rm ayman
+   56  rmdir 
+   57  cd ~
+   58  rmdir ayman 
+   59  cd ayman
+   60  ./st-stm32cubeide_1.19.0_25607_20250703_0907_amd64.sh 
+   61  df
+   62  du
+   63  df
+   64  df -h
+   65  mkdir workspace
+   66  cd workspace/
+   67  mkdir session2
+   68  cd session2/
+   69  touch man
+   70  man touch 
+   71  touch main.c
+   72  ls 
+   73  rm man
+   74  ls
+   75  ls -l
+   76  cd main.c
+   77  code main.c
+   78  gcc main.c 
+   79  gcc main.c  ls
+   80  ls
+   81  gcc main.c 
+   82  ls
+   83  ./a.out 
+   84  man esync
+   85  man rsync
+   86  sudo apt install ssh
+   87  nano main.c 
+   88  vim man.c
+   89  git init " Emdedded linux"
+   90  ls
+   91  cd \ Emdedded\ linux/
+   92  cd ..
+   93  g init redme
+   94  clear 
+   95  mkdir task1
+   96  cd task1/
+   97  sudo apt install tree 
+   98  sudo snap install typoral
+   99  sudo snap install typora
+  100  man touch 
+  101  cd ~
+  102  mkdir dir1
+  103  mkdir /dir1/dir11 dir12
+  104  mkdir /dir1/dir11 dir1 / dir12 dir1
+  105  mkdir /dir1/dir11 
+  106  cd dir1
+  107  mkdir dir11 dir12
+  108  cd dir11
+  109  touch file1
+  110  tree dir1
+  111  ls -R dir1
+  112  cd ..
+  113  cd dir1
+  114  tree ..
+  115  cd dir11
+  116  tree ..
+  117  cd ..
+  118  tree .
+  119  cd ..
+  120  mkdir docs
+  121  cd docs/
+  122  touch mycv
+  123  tree .
+  124  cd .. 
+  125  cd Docouments
+  126  cd Documents/
+  127  touch oldfiles
+  128  tree .
+  129  cd ..
+  130  rmdir dir11
+  131  rmdir dir1/dir11
+  132  rm dir1/dir11
+  133  mkdir testgit
+  134  cd testgit/
+  135  git clone https://github.com/ayman4105/testgit.git
+  136  git clone git@github.com:ayman4105/testgit.git
+  137  git clone https://github.com/ayman4105/testgit.git
+  138  git branch 
+  139  git switch main 
+  140  git log
+  141  git switch aymanbranch 
+  142  git log
+  143  git merge main 
+  144  git add .
+  145  git commit -m "fixed main"
+  146  git merge main 
+  147  git switch main 
+  148  git add .
+  149  git commit -m "added some data"
+  150  git switch aymanbranch 
+  151  git merge main 
+  152  code .
+  153  git log --oneline 
+  154  git push
+  155  cd testgit/
+  156  ls -al ~/.ssh
+  157  ssh-keygen -t ed25519 -C abohamedayman22@gmail.com
+  158  eval "$(ssh-agent -s)"
+  159  ssh-add ~/.ssh/id_ed25519
+  160  ssh-add ~/.ssh/
+  161  ls -al ~/.ssh
+  162  ls
+  163  mv ~/testgit/ayman ~/.ssh/
+  164  mv ~/testgit/ayman.pub ~/.ssh/
+  165  ls -l ~/.ssh
+  166  eval "$(ssh-agent -s)"
+  167  ssh-add ~/.ssh/ayman
+  168  cat ~/.ssh/ayman.pub
+  169  ssh -T git@github.com
+  170  git clone git@github.com:ayman4105/testgit.git
+  171  touch main.c 
+  172  git status 
+  173  git add .
+  174  cd testgit/
+  175  touch main.c
+  176  git status
+  177  git add .
+  178  git commit -m "created main.c"
+  179  git config --global user.name "ayman abohamed"
+  180  git config --global user.email "abohamedayman22@gmail.com"
+  181  git config --list
+  182  git commit -m "created main.c"
+  183  git push
+  184  git checkout -b aymanbranch
+  185  git switch aymanbranch 
+  186  touch motor.c motor.h
+  187  code motor.h
+  188  git add .
+  189  git status
+  190  git commit -m "make motor.h"
+  191  git merge main 
+  192  git push
+  193  git push --set-upstream origin aymanbranch
+  194  cd test_c
+  195  touch main.c
+  196  code .
+  197  cd ITI/
+  198  cd fady/
+  199  cd embedded_linux/
+  200  git clone git@github.com:ayman4105/Embedded-linux.git 
+  201  cd~
+  202  cd ~
+  203  mkdir -p dir1/dir11 
+  204  mkdir -p dir1/dir12
+  205  mkdir -p dir11/file1
+  206  tree dir1
+  207  mkdir docs 
+  208  cd docs
+  209  touch mycv
+  210  tree docs
+  211  tree
+  212  cd ..
+  213  tree docs
+  214  mkdir Documents
+  215  cd Documents/
+  216  touch Oldfiles
+  217  cd ..
+  218  tree Documents
+  219  cd Documents/
+  220  rm oldfiles 
+  221  cd ..
+  222  tree Documents/
+  223  rmdir –p Oldfiles
+  224  rmdir -p Oldfiles
+  225  pwd
+  226  cd docs/
+  227  ls 
+  228  pwd 
+  229  cd mycv
+  230  pwd mycv 
+  231  lscpu
+  232  ls/
+  233  ls /
+  234  touch main.c 
+  235  code main.c
+  236  cat main.c
+  237  rm main.c
+  238  ls
+  239  etc/passwd
+  240  etc/passwd/
+  241  cd ..
+  242  etc/passwd/
+  243  cd ..
+  244  etc/passwd/
+  245  cd ..
+  246  etc/passwd/
+  247  etc/passwd
+  248  cd ~
+  249  touch passwordfile
+  250  cd ..
+  251  cp etc/passwd passwordfile
+  252  cd ~
+  253  cp etc/passwd passwordfile
+  254  cp /etc/passwd passwordfile
+  255  ls passwordfile 
+  256  ls
+  257  htop
+  258  ls /media/ayman/
+  259  ls /media/
+  260  ls /media/ayman/
+  261  mv passwordfile newpass
+  262  ls
+  263  cd usr/bin/
+  264  cd usr
+  265  cd ..
+  266  cd usr
+  267  cd ..
+  268  cd usr/bin/
+  269  cd ~
+  270  cd usr/bin/
+  271  cd ..
+  272  c usr/bin/
+  273  cd usr/bin/
+  274  cd 
+  275  cd /
+  276  cd usr/bin/
+  277  cd /home/ayman
+  278  cd /
+  279  cd usr/bin/
+  280  cd .. 
+  281  cd ..
+  282  cd /home/ayman/
+  283  cd /
+  284  cd usr/bin/
+  285  ls /usr/bin/w*
+  286  type pwd
+  287  type -a cat 
+  288  man -k read
+  289  man  read
+  290  man  read1
+  291  man  read
+  292  man  man
+  293  man -k read
+  294  cd 
+  295  man -k newpass
+  296  man -k file
+  297  man -k file read
+  298  man -k (file read)
+  299  man -k file read
+  300  apropos copy
+  301  man -K "read file"
+  302  man -k file read
+  303  mkdir myDirectory
+  304  cd myDirectory/
+  305  mkdir secondDirectory
+  306  cd secondDirectory/
+  307  touch myNotePaper
+  308  cp ~/myDirectory/secondDirectory/myNotePaper ~/myDirectory/
+  309  cd ..
+  310  ls
+  311  mv ~/myDirectory/myNotePaper ~/myDirectory/myOldNotePaper
+  312  ls
+  313  nano mytask.sh
+  314  ls
+  315  nano mytask.sh
+  316  code mytask.sh 
+  317  cd secondDirectory/
+  318  touch data
+  319  cp /myDirectory/secondDirectory/data /myDirectory
+  320  cp  ~/myDirectory/secondDirectory/data  ~/myDirectory
+  321  ls
+  322  rm data
+  323  ls
+  324  cd ..
+  325  ls
+  326  rm data 
+  327  ls
+  328  cd ..
+  329  cd ITI/fady/embedded_linux/
+  330  ls
+  331  Embedded-linux/
+  332  ls
+  333  cd  Embedded-linux/
+  334  ls
+  335  git add .
+  336  git commit -m "first task"
+  337  git push 
+  338  git status
+  339  git add .
+  340  git commit -m "Last Exercice"
+  341  git push
+  342  git status
+  343  git add . 
+  344  git commit -m "edit last Exercie"
+  345  git push 
+  346  chmod +x myDirectory/mytask.sh 
+  347  cd
+  348  touch testrun.sh
+  349  chmod +x ~/testrun.sh 
+  350  vim ~/testrun.sh 
+  351  ls -la ./testrun.sh 
+  352  ./testrun.sh 
+  353  vim ~/testrun.sh 
+  354  ./testrun.sh 
+  355  cd ITI/fady/embedded_linux/Embedded-linux/
+  356  ls
+  357  git status 
+  358  git add .
+  359  git commit -m "finish"
+  360  git push 
+  361  echo $num
+  362  VAR=10
+  363  echo $VAR
+  364  export num=20
+  365  echo $num
+  366  env
+  367  print $num
+  368  printenv $num
+  369  printenv num
+  370  print num
+  371  printenv num
+  372  gnome-terminal
+  373  sudo apt install OBS
+  374  cat linux_chat 
+  375  clear
+  376  suod apt install obs
+  377  sudo add-apt-repository ppa:obsproject/obs-studio
+  378  cd ITI/fady/embedded_linux/Embedded-linux/
+  379  ls
+  380  vim main.c
+  381  gcc main.c
+  382  vim main.c
+  383  gcc main.c
+  384  a.out
+  385  ls
+  386  ./a.out
+  387  vim main.c
+  388  gcc main.c
+  389  ./a.out
+  390  git add .
+  391  git commit -m "task in lab"
+  392  git push
+  393  gcc main.c
+  394  mv ./a.out main
+  395  ./main 
+  396  cp main /usr/local/bin/
+  397  sudo cp main /usr/local/bin/
+  398  cd /usr/local/bin/
+  399  ./main
+  400  cd ~
+  401  ./main
+  402  main
+  403  printenv PATH
+  404  echo $SHELL
+  405  echo \
+  406  vim Q4
+  407  echo $PATH
+  408  cd ITI/fady/embedded_linux/Embedded-linux/
+  409  git status 
+  410  cd
+  411  cd \
+  412  cd /
+  413  ls
+  414  touch hello
+  415  cd 
+  416  ln etc/passwd /boot 
+  417  lsblk
+  418  ln /etc/passwd /boot 
+  419  sudo ln /etc/passwd /boot 
+  420  sudo ln /etc/passwd /boot/efi 
+  421  git add .
+  422  cd ITI/fady/embedded_linux/Embedded-linux/
+  423  git add .
+  424  git commit -m "lab3"
+  425  git push
+  426  sudo apt update 
+  427  sudo apt install avrdude
+  428  avrdude -c usbasp 
+  429  avrdude -c usbasp -p m32a
+  430  avrdude -c usbasp -p m32
+  431  avrdude -c usbasp-clone -p m32
+  432  sudo avrdude -c usbasp-clone -p m32
+  433  sudo reboot 
+  434  sudo apt install vlc 
+  435  su -
+  436  cd / 
+  437  cd lib
+  438  ls
+  439  cd ~
+  440  ls
+  441  cd dir1
+  442  ls
+  443  cd dir11
+  444  cd ../..
+  445  date
+  446  cal 
+  447  cal 2 2025
+  448  sudo apt install ncal
+  449  cal 2 2025
+  450  cat /etc/passwd
+  451  id
+  452  id root
+  453  ls 
+  454  cd home
+  455  cd ..
+  456  ls
+  457  cd ayman/
+  458  ls
+  459  cd 
+  460  cd /
+  461  ls
+  462  cd var/
+  463  ls
+  464  cd ..
+  465  cd root/
+  466  ls
+  467  cd proc/
+  468  ls
+  469  cd ..
+  470  ls
+  471  cd mnt/
+  472  ls
+  473  cd ..
+  474  cd
+  475  cd media
+  476  cd /
+  477  cd media/
+  478  ls
+  479  cd ..
+  480  cd boot/
+  481  ls
+  482  cd ..
+  483  cd root/
+  484  ls
+  485  su - root 
+  486  userdel ali
+  487  sudo userdel ali 
+  488  ps -u ali
+  489  sudo pkill -u ali
+  490  sudo userdel ali 
+  491  sudo userdel -r ali
+  492  ls /home/
+  493  useradd ali 
+  494  ls
+  495  ls -l
+  496  ls -lh
+  497  ls;date
+  498  useradd ali 
+  499  sudo useradd ali
+  500  ls
+  501  ls /
+  502  cd ali
+  503  su ali
+  504  su -r ali
+  505  su --help 
+  506  su ali
+  507  sudo userdel -r ali
+  508  sudo userdel  ali
+  509  adduser ali 
+  510  sudo useradd ali
+  511  ls
+  512  cd ali
+  513  su ali 
+  514  sudo passwd ali 
+  515  su ali
+  516  cat /etc/passwd
+  517  cd home
+  518  cd ..
+  519  ls
+  520  sudo pkill -u ali
+  521  sudo userdel -r ali
+  522  ps -fp 6298
+  523  sudo kill -9 6298
+  524  ps -u ali
+  525  sudo userdel -r ali
+  526  grep ali /etc/passwd
+  527  cat /etc/passwd
+  528  useradd ali
+  529  adduser ali 
+  530  sudo adduser ali 
+  531  su ali
+  532  userdel ali
+  533  sudo userdel ali 
+  534  sudo kill -9 6573
+  535  w
+  536  clear
+  537  echo $HELLO
+  538  echo $LOCAL
+  539  echo HELLO
+  540  echo $HELLO
+  541  echo $LOCAL
+  542  echo $HELLO
+  543  echo $LOCAL
+  544  echo $HELLO
+  545  echo $LOCAL
+  546  echo $HELLO
+  547  echo $LOCAL
+  548  cd ITI/fady/embedded_linux/Embedded-linux/
+  549  ls
+  550  touch Capslock
+  551  code Capslock
+  552  rm Capslock
+  553  touch Capslock.c
+  554  code Capslock
+  555  ls
+  556  code Capslock.c 
+  557  ls /sys/class/leds/
+  558  echo 1 | sudo tee /sys/class/leds/input4::capslock/brightness
+  559  echo 0 | sudo tee /sys/class/leds/input4::capslock/brightness
+  560  echo 1 | sudo tee /sys/class/leds/input4::capslock/brightness
+  561  echo 0 | sudo tee /sys/class/leds/input4::capslock/brightness
+  562  gcc Capslock.c
+  563  ls
+  564  ./a.out
+  565  1
+  566  gcc capslock.c -o capslock_led
+  567  gcc Capslock.c -o capslock_led
+  568  sudo ./capslock_led 1
+  569  sudo ./capslock_led 0
+  570  sudo ./capslock_led 1
+  571  sudo ./capslock_led 0
+  572  sudo ./capslock_led 1
+  573  sudo ./capslock_led 0
+  574  sudo ./capslock_led 1
+  575  sudo ./capslock_led 0
+  576  sudo ./capslock_led 1
+  577  gcc Capslock.c
+  578  sudo ./capslock_led 0
+  579  sudo ./capslock_led 1
+  580  sudo ./capslock 0
+  581  sudo ./capslock_led 1
+  582  sudo ./capslock_led 0
+  583  sudo ./capslock_led 1
+  584  sudo ./capslock_led 0
+  585  sudo ./capslock_led 1
+  586  sudo ./capslock_led 0
+  587  sudo ./capslock_led 1
+  588  sudo ./capslock_led 0
+  589  touch link_vedio
+  590  git status 
+  591  rm ./a.out 
+  592  sudo ./capslock_led 1
+  593  sudo ./capslock_led 0
+  594  git status 
+  595  git add .
+  596  git commit -m "capslock finsh"
+  597  git push 
+  598  cd 
+  599  cd .bashrc
+  600  cat ~/.bashrc
+  601  code check_bashrc.sh
+  602  chmod +x check_bashrc.sh
+  603  ./check_bashrc.sh
+  604  cd ITI/fady/embedded_linux/Embedded-linux/
+  605  ./check_bashrc.sh 
+  606  code test.sh
+  607  chmod +x test.sh 
+  608  test.sh
+  609  ./test.sh 
+  610  rm test.sh 
+  611  ls
+  612  git status
+  613  code check_bashrc.sh 
+  614  ./check_bashrc.sh 
+  615  cat check_bashrc.sh 
+  616  ./check_bashrc.sh 
+  617  git status
+  618  git add . 
+  619  git commit -m "bashrc finish"
+  620  git push 
+  621  history
+  622  cat ~/.bash_history > /tmp/commands.list
+  623  ls
+  624  compgen -c > /tmp/commands.list
+  625  ls
+  626  ls /tmp/commands.list
+  627  cd /tmp
+  628  ls
+  629  cd /command.list
+  630  history 
+  631  history > commands.list

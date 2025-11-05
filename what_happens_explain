@@ -1,0 +1,13 @@
+a- in file tt i write hello and in file cc i write world when use command cat tt | cat cc 
+the output is world because the pipe ignore the input 
+
+
+b- ls | rm ---->rm: missing operand
+
+c- ls /etc/passwd | wc -l ----> 1
+because ls tries to list the content of /etc/passwd 
+but /etc/passwd is a file, not a directory so 
+the output is /etc/passwd
+and the pipe send that as input to wc -l 
+that wc count the numbers of lines that has one it is /etc/passwd
+so output is 1

@@ -1,0 +1,12 @@
+echo \ that make a new line to cotinue the previous command 
+and print (>)
+
+ps1: control the main prompt , the normal symbol is $
+
+ps2: control the secodary prompt the symbol is > that appears when a command
+not compleated 
+
+if you need change > use command 
+export ps2=":"
+but this changes temporary , once you close the terminal 
+it is reset 
