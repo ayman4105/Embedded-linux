@@ -1,0 +1,489 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:233 (message)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      The system is: Linux - 6.8.0-87-generic - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /home/ayman/x-tools/aarch64-rpi3-linux-gnu/bin/aarch64-rpi3-linux-gnu-gcc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /home/ayman/ITI/fady/embedded_linux/Embedded-linux/7_segment_rpi/build/CMakeFiles/3.28.3/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /home/ayman/x-tools/aarch64-rpi3-linux-gnu/bin/aarch64-rpi3-linux-gnu-g++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/ayman/ITI/fady/embedded_linux/Embedded-linux/7_segment_rpi/build/CMakeFiles/3.28.3/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/ayman/ITI/fady/embedded_linux/Embedded-linux/7_segment_rpi/build/CMakeFiles/CMakeScratch/TryCompile-oq9oF3"
+      binary: "/home/ayman/ITI/fady/embedded_linux/Embedded-linux/7_segment_rpi/build/CMakeFiles/CMakeScratch/TryCompile-oq9oF3"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ayman/ITI/fady/embedded_linux/Embedded-linux/7_segment_rpi/build/CMakeFiles/CMakeScratch/TryCompile-oq9oF3'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_93786/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_93786.dir/build.make CMakeFiles/cmTC_93786.dir/build
+        gmake[1]: Entering directory '/home/ayman/ITI/fady/embedded_linux/Embedded-linux/7_segment_rpi/build/CMakeFiles/CMakeScratch/TryCompile-oq9oF3'
+        Building C object CMakeFiles/cmTC_93786.dir/CMakeCCompilerABI.c.o
+        /home/ayman/x-tools/aarch64-rpi3-linux-gnu/bin/aarch64-rpi3-linux-gnu-gcc   -v -o CMakeFiles/cmTC_93786.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/home/ayman/x-tools/aarch64-rpi3-linux-gnu/bin/aarch64-rpi3-linux-gnu-gcc
+        Target: aarch64-rpi3-linux-gnu
+        Configured with: /home/ayman/ITI/fady/embedded_linux/Embedded-linux/crosscompiler/crosstool-ng/.build/aarch64-rpi3-linux-gnu/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=aarch64-rpi3-linux-gnu --prefix=/home/ayman/x-tools/aarch64-rpi3-linux-gnu --exec_prefix=/home/ayman/x-tools/aarch64-rpi3-linux-gnu --with-sysroot=/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot --enable-languages=c,c++ --with-cpu=cortex-a53 --with-pkgversion='crosstool-NG 1.26.0_rc2' --enable-__cxa_atexit --disable-libmudflap --disable-libgomp --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --disable-libmpx --with-gmp=/home/ayman/ITI/fady/embedded_linux/Embedded-linux/crosscompiler/crosstool-ng/.build/aarch64-rpi3-linux-gnu/buildtools --with-mpfr=/home/ayman/ITI/fady/embedded_linux/Embedded-linux/crosscompiler/crosstool-ng/.build/aarch64-rpi3-linux-gnu/buildtools --with-mpc=/home/ayman/ITI/fady/embedded_linux/Embedded-linux/crosscompiler/crosstool-ng/.build/aarch64-rpi3-linux-gnu/buildtools --with-isl=/home/ayman/ITI/fady/embedded_linux/Embedded-linux/crosscompiler/crosstool-ng/.build/aarch64-rpi3-linux-gnu/buildtools --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-multilib --with-local-prefix=/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot --enable-long-long
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.2.0 (crosstool-NG 1.26.0_rc2) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_93786.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=cortex-a53' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_93786.dir/'
+         /home/ayman/x-tools/aarch64-rpi3-linux-gnu/libexec/gcc/aarch64-rpi3-linux-gnu/13.2.0/cc1 -quiet -v /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_93786.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-a53 -mlittle-endian -mabi=lp64 -version -o /tmp/cc71iz7e.s
+        GNU C17 (crosstool-NG 1.26.0_rc2) version 13.2.0 (aarch64-rpi3-linux-gnu)
+        	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.2.1, MPC version 1.2.1, isl version isl-0.26-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/include
+         /home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/include-fixed
+         /home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/../../../../aarch64-rpi3-linux-gnu/include
+         /home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/include
+        End of search list.
+        Compiler executable checksum: 3f4097a938110fcd5d3859ddd7130065
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_93786.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=cortex-a53' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_93786.dir/'
+         /home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/../../../../aarch64-rpi3-linux-gnu/bin/as -v -EL -march=armv8-a+crc -mabi=lp64 -o CMakeFiles/cmTC_93786.dir/CMakeCCompilerABI.c.o /tmp/cc71iz7e.s
+        GNU assembler version 2.40 (aarch64-rpi3-linux-gnu) using BFD version (crosstool-NG 1.26.0_rc2) 2.40
+        COMPILER_PATH=/home/ayman/x-tools/aarch64-rpi3-linux-gnu/libexec/gcc/aarch64-rpi3-linux-gnu/13.2.0/:/home/ayman/x-tools/aarch64-rpi3-linux-gnu/libexec/gcc/aarch64-rpi3-linux-gnu/13.2.0/:/home/ayman/x-tools/aarch64-rpi3-linux-gnu/libexec/gcc/aarch64-rpi3-linux-gnu/:/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/:/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/:/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/../../../../aarch64-rpi3-linux-gnu/bin/
+        LIBRARY_PATH=/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/:/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/../../../../aarch64-rpi3-linux-gnu/lib/../lib64/:/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/lib/../lib64/:/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib/../lib64/:/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/../../../../aarch64-rpi3-linux-gnu/lib/:/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/lib/:/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_93786.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=cortex-a53' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_93786.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_93786
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_93786.dir/link.txt --verbose=1
+        /home/ayman/x-tools/aarch64-rpi3-linux-gnu/bin/aarch64-rpi3-linux-gnu-gcc  -v CMakeFiles/cmTC_93786.dir/CMakeCCompilerABI.c.o -o cmTC_93786 
+        Using built-in specs.
+        COLLECT_GCC=/home/ayman/x-tools/aarch64-rpi3-linux-gnu/bin/aarch64-rpi3-linux-gnu-gcc
+        COLLECT_LTO_WRAPPER=/home/ayman/x-tools/aarch64-rpi3-linux-gnu/libexec/gcc/aarch64-rpi3-linux-gnu/13.2.0/lto-wrapper
+        Target: aarch64-rpi3-linux-gnu
+        Configured with: /home/ayman/ITI/fady/embedded_linux/Embedded-linux/crosscompiler/crosstool-ng/.build/aarch64-rpi3-linux-gnu/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=aarch64-rpi3-linux-gnu --prefix=/home/ayman/x-tools/aarch64-rpi3-linux-gnu --exec_prefix=/home/ayman/x-tools/aarch64-rpi3-linux-gnu --with-sysroot=/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot --enable-languages=c,c++ --with-cpu=cortex-a53 --with-pkgversion='crosstool-NG 1.26.0_rc2' --enable-__cxa_atexit --disable-libmudflap --disable-libgomp --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --disable-libmpx --with-gmp=/home/ayman/ITI/fady/embedded_linux/Embedded-linux/crosscompiler/crosstool-ng/.build/aarch64-rpi3-linux-gnu/buildtools --with-mpfr=/home/ayman/ITI/fady/embedded_linux/Embedded-linux/crosscompiler/crosstool-ng/.build/aarch64-rpi3-linux-gnu/buildtools --with-mpc=/home/ayman/ITI/fady/embedded_linux/Embedded-linux/crosscompiler/crosstool-ng/.build/aarch64-rpi3-linux-gnu/buildtools --with-isl=/home/ayman/ITI/fady/embedded_linux/Embedded-linux/crosscompiler/crosstool-ng/.build/aarch64-rpi3-linux-gnu/buildtools --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-multilib --with-local-prefix=/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot --enable-long-long
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.2.0 (crosstool-NG 1.26.0_rc2) 
+        COMPILER_PATH=/home/ayman/x-tools/aarch64-rpi3-linux-gnu/libexec/gcc/aarch64-rpi3-linux-gnu/13.2.0/:/home/ayman/x-tools/aarch64-rpi3-linux-gnu/libexec/gcc/aarch64-rpi3-linux-gnu/13.2.0/:/home/ayman/x-tools/aarch64-rpi3-linux-gnu/libexec/gcc/aarch64-rpi3-linux-gnu/:/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/:/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/:/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/../../../../aarch64-rpi3-linux-gnu/bin/
+        LIBRARY_PATH=/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/:/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/../../../../aarch64-rpi3-linux-gnu/lib/../lib64/:/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/lib/../lib64/:/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib/../lib64/:/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/../../../../aarch64-rpi3-linux-gnu/lib/:/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/lib/:/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_93786' '-mcpu=cortex-a53' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_93786.'
+         /home/ayman/x-tools/aarch64-rpi3-linux-gnu/libexec/gcc/aarch64-rpi3-linux-gnu/13.2.0/collect2 -plugin /home/ayman/x-tools/aarch64-rpi3-linux-gnu/libexec/gcc/aarch64-rpi3-linux-gnu/13.2.0/liblto_plugin.so -plugin-opt=/home/ayman/x-tools/aarch64-rpi3-linux-gnu/libexec/gcc/aarch64-rpi3-linux-gnu/13.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccaXMman.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot --eh-frame-hdr -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -o cmTC_93786 /home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib/../lib64/crt1.o /home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib/../lib64/crti.o /home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/crtbegin.o -L/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0 -L/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/../../../../aarch64-rpi3-linux-gnu/lib/../lib64 -L/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/lib/../lib64 -L/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib/../lib64 -L/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/../../../../aarch64-rpi3-linux-gnu/lib -L/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/lib -L/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib CMakeFiles/cmTC_93786.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/crtend.o /home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib/../lib64/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_93786' '-mcpu=cortex-a53' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_93786.'
+        gmake[1]: Leaving directory '/home/ayman/ITI/fady/embedded_linux/Embedded-linux/7_segment_rpi/build/CMakeFiles/CMakeScratch/TryCompile-oq9oF3'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/include]
+          add: [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/include-fixed]
+          add: [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/../../../../aarch64-rpi3-linux-gnu/include]
+          add: [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/include]
+        end of search list found
+        collapse include dir [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/include] ==> [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/include]
+        collapse include dir [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/include-fixed] ==> [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/include-fixed]
+        collapse include dir [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/../../../../aarch64-rpi3-linux-gnu/include] ==> [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/include]
+        collapse include dir [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/include] ==> [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/include]
+        implicit include dirs: [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/include;/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/include-fixed;/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/include;/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:159 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(aarch64-rpi3-linux-gnu-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/home/ayman/ITI/fady/embedded_linux/Embedded-linux/7_segment_rpi/build/CMakeFiles/CMakeScratch/TryCompile-oq9oF3']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_93786/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_93786.dir/build.make CMakeFiles/cmTC_93786.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/ayman/ITI/fady/embedded_linux/Embedded-linux/7_segment_rpi/build/CMakeFiles/CMakeScratch/TryCompile-oq9oF3']
+        ignore line: [Building C object CMakeFiles/cmTC_93786.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/bin/aarch64-rpi3-linux-gnu-gcc   -v -o CMakeFiles/cmTC_93786.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/home/ayman/x-tools/aarch64-rpi3-linux-gnu/bin/aarch64-rpi3-linux-gnu-gcc]
+        ignore line: [Target: aarch64-rpi3-linux-gnu]
+        ignore line: [Configured with: /home/ayman/ITI/fady/embedded_linux/Embedded-linux/crosscompiler/crosstool-ng/.build/aarch64-rpi3-linux-gnu/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=aarch64-rpi3-linux-gnu --prefix=/home/ayman/x-tools/aarch64-rpi3-linux-gnu --exec_prefix=/home/ayman/x-tools/aarch64-rpi3-linux-gnu --with-sysroot=/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot --enable-languages=c c++ --with-cpu=cortex-a53 --with-pkgversion='crosstool-NG 1.26.0_rc2' --enable-__cxa_atexit --disable-libmudflap --disable-libgomp --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --disable-libmpx --with-gmp=/home/ayman/ITI/fady/embedded_linux/Embedded-linux/crosscompiler/crosstool-ng/.build/aarch64-rpi3-linux-gnu/buildtools --with-mpfr=/home/ayman/ITI/fady/embedded_linux/Embedded-linux/crosscompiler/crosstool-ng/.build/aarch64-rpi3-linux-gnu/buildtools --with-mpc=/home/ayman/ITI/fady/embedded_linux/Embedded-linux/crosscompiler/crosstool-ng/.build/aarch64-rpi3-linux-gnu/buildtools --with-isl=/home/ayman/ITI/fady/embedded_linux/Embedded-linux/crosscompiler/crosstool-ng/.build/aarch64-rpi3-linux-gnu/buildtools --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-multilib --with-local-prefix=/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot --enable-long-long]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.2.0 (crosstool-NG 1.26.0_rc2) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_93786.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=cortex-a53' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_93786.dir/']
+        ignore line: [ /home/ayman/x-tools/aarch64-rpi3-linux-gnu/libexec/gcc/aarch64-rpi3-linux-gnu/13.2.0/cc1 -quiet -v /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_93786.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=cortex-a53 -mlittle-endian -mabi=lp64 -version -o /tmp/cc71iz7e.s]
+        ignore line: [GNU C17 (crosstool-NG 1.26.0_rc2) version 13.2.0 (aarch64-rpi3-linux-gnu)]
+        ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.2.1  MPC version 1.2.1  isl version isl-0.26-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/include]
+        ignore line: [ /home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/include-fixed]
+        ignore line: [ /home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/../../../../aarch64-rpi3-linux-gnu/include]
+        ignore line: [ /home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 3f4097a938110fcd5d3859ddd7130065]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_93786.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=cortex-a53' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_93786.dir/']
+        ignore line: [ /home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/../../../../aarch64-rpi3-linux-gnu/bin/as -v -EL -march=armv8-a+crc -mabi=lp64 -o CMakeFiles/cmTC_93786.dir/CMakeCCompilerABI.c.o /tmp/cc71iz7e.s]
+        ignore line: [GNU assembler version 2.40 (aarch64-rpi3-linux-gnu) using BFD version (crosstool-NG 1.26.0_rc2) 2.40]
+        ignore line: [COMPILER_PATH=/home/ayman/x-tools/aarch64-rpi3-linux-gnu/libexec/gcc/aarch64-rpi3-linux-gnu/13.2.0/:/home/ayman/x-tools/aarch64-rpi3-linux-gnu/libexec/gcc/aarch64-rpi3-linux-gnu/13.2.0/:/home/ayman/x-tools/aarch64-rpi3-linux-gnu/libexec/gcc/aarch64-rpi3-linux-gnu/:/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/:/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/:/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/../../../../aarch64-rpi3-linux-gnu/bin/]
+        ignore line: [LIBRARY_PATH=/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/:/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/../../../../aarch64-rpi3-linux-gnu/lib/../lib64/:/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/lib/../lib64/:/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib/../lib64/:/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/../../../../aarch64-rpi3-linux-gnu/lib/:/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/lib/:/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_93786.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=cortex-a53' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_93786.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_93786]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_93786.dir/link.txt --verbose=1]
+        ignore line: [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/bin/aarch64-rpi3-linux-gnu-gcc  -v CMakeFiles/cmTC_93786.dir/CMakeCCompilerABI.c.o -o cmTC_93786 ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/home/ayman/x-tools/aarch64-rpi3-linux-gnu/bin/aarch64-rpi3-linux-gnu-gcc]
+        ignore line: [COLLECT_LTO_WRAPPER=/home/ayman/x-tools/aarch64-rpi3-linux-gnu/libexec/gcc/aarch64-rpi3-linux-gnu/13.2.0/lto-wrapper]
+        ignore line: [Target: aarch64-rpi3-linux-gnu]
+        ignore line: [Configured with: /home/ayman/ITI/fady/embedded_linux/Embedded-linux/crosscompiler/crosstool-ng/.build/aarch64-rpi3-linux-gnu/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=aarch64-rpi3-linux-gnu --prefix=/home/ayman/x-tools/aarch64-rpi3-linux-gnu --exec_prefix=/home/ayman/x-tools/aarch64-rpi3-linux-gnu --with-sysroot=/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot --enable-languages=c c++ --with-cpu=cortex-a53 --with-pkgversion='crosstool-NG 1.26.0_rc2' --enable-__cxa_atexit --disable-libmudflap --disable-libgomp --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --disable-libmpx --with-gmp=/home/ayman/ITI/fady/embedded_linux/Embedded-linux/crosscompiler/crosstool-ng/.build/aarch64-rpi3-linux-gnu/buildtools --with-mpfr=/home/ayman/ITI/fady/embedded_linux/Embedded-linux/crosscompiler/crosstool-ng/.build/aarch64-rpi3-linux-gnu/buildtools --with-mpc=/home/ayman/ITI/fady/embedded_linux/Embedded-linux/crosscompiler/crosstool-ng/.build/aarch64-rpi3-linux-gnu/buildtools --with-isl=/home/ayman/ITI/fady/embedded_linux/Embedded-linux/crosscompiler/crosstool-ng/.build/aarch64-rpi3-linux-gnu/buildtools --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-multilib --with-local-prefix=/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot --enable-long-long]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.2.0 (crosstool-NG 1.26.0_rc2) ]
+        ignore line: [COMPILER_PATH=/home/ayman/x-tools/aarch64-rpi3-linux-gnu/libexec/gcc/aarch64-rpi3-linux-gnu/13.2.0/:/home/ayman/x-tools/aarch64-rpi3-linux-gnu/libexec/gcc/aarch64-rpi3-linux-gnu/13.2.0/:/home/ayman/x-tools/aarch64-rpi3-linux-gnu/libexec/gcc/aarch64-rpi3-linux-gnu/:/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/:/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/:/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/../../../../aarch64-rpi3-linux-gnu/bin/]
+        ignore line: [LIBRARY_PATH=/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/:/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/../../../../aarch64-rpi3-linux-gnu/lib/../lib64/:/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/lib/../lib64/:/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib/../lib64/:/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/../../../../aarch64-rpi3-linux-gnu/lib/:/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/lib/:/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_93786' '-mcpu=cortex-a53' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_93786.']
+        link line: [ /home/ayman/x-tools/aarch64-rpi3-linux-gnu/libexec/gcc/aarch64-rpi3-linux-gnu/13.2.0/collect2 -plugin /home/ayman/x-tools/aarch64-rpi3-linux-gnu/libexec/gcc/aarch64-rpi3-linux-gnu/13.2.0/liblto_plugin.so -plugin-opt=/home/ayman/x-tools/aarch64-rpi3-linux-gnu/libexec/gcc/aarch64-rpi3-linux-gnu/13.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccaXMman.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot --eh-frame-hdr -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -o cmTC_93786 /home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib/../lib64/crt1.o /home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib/../lib64/crti.o /home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/crtbegin.o -L/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0 -L/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/../../../../aarch64-rpi3-linux-gnu/lib/../lib64 -L/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/lib/../lib64 -L/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib/../lib64 -L/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/../../../../aarch64-rpi3-linux-gnu/lib -L/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/lib -L/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib CMakeFiles/cmTC_93786.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/crtend.o /home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib/../lib64/crtn.o]
+          arg [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/libexec/gcc/aarch64-rpi3-linux-gnu/13.2.0/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/libexec/gcc/aarch64-rpi3-linux-gnu/13.2.0/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/home/ayman/x-tools/aarch64-rpi3-linux-gnu/libexec/gcc/aarch64-rpi3-linux-gnu/13.2.0/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccaXMman.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--sysroot=/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib/ld-linux-aarch64.so.1] ==> ignore
+          arg [-X] ==> ignore
+          arg [-EL] ==> ignore
+          arg [-maarch64linux] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_93786] ==> ignore
+          arg [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib/../lib64/crt1.o] ==> obj [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib/../lib64/crt1.o]
+          arg [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib/../lib64/crti.o] ==> obj [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib/../lib64/crti.o]
+          arg [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/crtbegin.o] ==> obj [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/crtbegin.o]
+          arg [-L/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0] ==> dir [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0]
+          arg [-L/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/../../../../aarch64-rpi3-linux-gnu/lib/../lib64] ==> dir [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/../../../../aarch64-rpi3-linux-gnu/lib/../lib64]
+          arg [-L/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/lib/../lib64] ==> dir [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/lib/../lib64]
+          arg [-L/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib/../lib64] ==> dir [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib/../lib64]
+          arg [-L/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/../../../../aarch64-rpi3-linux-gnu/lib] ==> dir [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/../../../../aarch64-rpi3-linux-gnu/lib]
+          arg [-L/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/lib] ==> dir [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/lib]
+          arg [-L/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib] ==> dir [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib]
+          arg [CMakeFiles/cmTC_93786.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/crtend.o] ==> obj [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/crtend.o]
+          arg [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib/../lib64/crtn.o] ==> obj [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib/../lib64/crtn.o]
+        collapse obj [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib/../lib64/crt1.o] ==> [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib64/crt1.o]
+        collapse obj [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib/../lib64/crti.o] ==> [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib64/crti.o]
+        collapse obj [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib/../lib64/crtn.o] ==> [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib64/crtn.o]
+        collapse library dir [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0] ==> [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0]
+        collapse library dir [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/../../../../aarch64-rpi3-linux-gnu/lib/../lib64] ==> [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/lib64]
+        collapse library dir [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/lib/../lib64] ==> [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/lib64]
+        collapse library dir [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib/../lib64] ==> [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib64]
+        collapse library dir [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/../../../../aarch64-rpi3-linux-gnu/lib] ==> [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/lib]
+        collapse library dir [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/lib] ==> [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/lib]
+        collapse library dir [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib] ==> [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib64/crt1.o;/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib64/crti.o;/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/crtbegin.o;/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/crtend.o;/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib64/crtn.o]
+        implicit dirs: [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0;/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/lib64;/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/lib64;/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib64;/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/lib;/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/lib;/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/ayman/ITI/fady/embedded_linux/Embedded-linux/7_segment_rpi/build/CMakeFiles/CMakeScratch/TryCompile-LZ7iDz"
+      binary: "/home/ayman/ITI/fady/embedded_linux/Embedded-linux/7_segment_rpi/build/CMakeFiles/CMakeScratch/TryCompile-LZ7iDz"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/ayman/ITI/fady/embedded_linux/Embedded-linux/7_segment_rpi/build/CMakeFiles/CMakeScratch/TryCompile-LZ7iDz'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_379b4/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_379b4.dir/build.make CMakeFiles/cmTC_379b4.dir/build
+        gmake[1]: Entering directory '/home/ayman/ITI/fady/embedded_linux/Embedded-linux/7_segment_rpi/build/CMakeFiles/CMakeScratch/TryCompile-LZ7iDz'
+        Building CXX object CMakeFiles/cmTC_379b4.dir/CMakeCXXCompilerABI.cpp.o
+        /home/ayman/x-tools/aarch64-rpi3-linux-gnu/bin/aarch64-rpi3-linux-gnu-g++   -v -o CMakeFiles/cmTC_379b4.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/home/ayman/x-tools/aarch64-rpi3-linux-gnu/bin/aarch64-rpi3-linux-gnu-g++
+        Target: aarch64-rpi3-linux-gnu
+        Configured with: /home/ayman/ITI/fady/embedded_linux/Embedded-linux/crosscompiler/crosstool-ng/.build/aarch64-rpi3-linux-gnu/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=aarch64-rpi3-linux-gnu --prefix=/home/ayman/x-tools/aarch64-rpi3-linux-gnu --exec_prefix=/home/ayman/x-tools/aarch64-rpi3-linux-gnu --with-sysroot=/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot --enable-languages=c,c++ --with-cpu=cortex-a53 --with-pkgversion='crosstool-NG 1.26.0_rc2' --enable-__cxa_atexit --disable-libmudflap --disable-libgomp --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --disable-libmpx --with-gmp=/home/ayman/ITI/fady/embedded_linux/Embedded-linux/crosscompiler/crosstool-ng/.build/aarch64-rpi3-linux-gnu/buildtools --with-mpfr=/home/ayman/ITI/fady/embedded_linux/Embedded-linux/crosscompiler/crosstool-ng/.build/aarch64-rpi3-linux-gnu/buildtools --with-mpc=/home/ayman/ITI/fady/embedded_linux/Embedded-linux/crosscompiler/crosstool-ng/.build/aarch64-rpi3-linux-gnu/buildtools --with-isl=/home/ayman/ITI/fady/embedded_linux/Embedded-linux/crosscompiler/crosstool-ng/.build/aarch64-rpi3-linux-gnu/buildtools --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-multilib --with-local-prefix=/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot --enable-long-long
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.2.0 (crosstool-NG 1.26.0_rc2) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_379b4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=cortex-a53' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_379b4.dir/'
+         /home/ayman/x-tools/aarch64-rpi3-linux-gnu/libexec/gcc/aarch64-rpi3-linux-gnu/13.2.0/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_379b4.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=cortex-a53 -mlittle-endian -mabi=lp64 -version -o /tmp/ccnbZWXb.s
+        GNU C++17 (crosstool-NG 1.26.0_rc2) version 13.2.0 (aarch64-rpi3-linux-gnu)
+        	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.2.1, MPC version 1.2.1, isl version isl-0.26-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/../../../../aarch64-rpi3-linux-gnu/include/c++/13.2.0
+         /home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/../../../../aarch64-rpi3-linux-gnu/include/c++/13.2.0/aarch64-rpi3-linux-gnu
+         /home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/../../../../aarch64-rpi3-linux-gnu/include/c++/13.2.0/backward
+         /home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/include
+         /home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/include-fixed
+         /home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/../../../../aarch64-rpi3-linux-gnu/include
+         /home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/include
+        End of search list.
+        Compiler executable checksum: 38711bb186f6513d1390a19dbd0d1c88
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_379b4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=cortex-a53' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_379b4.dir/'
+         /home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/../../../../aarch64-rpi3-linux-gnu/bin/as -v -EL -march=armv8-a+crc -mabi=lp64 -o CMakeFiles/cmTC_379b4.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccnbZWXb.s
+        GNU assembler version 2.40 (aarch64-rpi3-linux-gnu) using BFD version (crosstool-NG 1.26.0_rc2) 2.40
+        COMPILER_PATH=/home/ayman/x-tools/aarch64-rpi3-linux-gnu/libexec/gcc/aarch64-rpi3-linux-gnu/13.2.0/:/home/ayman/x-tools/aarch64-rpi3-linux-gnu/libexec/gcc/aarch64-rpi3-linux-gnu/13.2.0/:/home/ayman/x-tools/aarch64-rpi3-linux-gnu/libexec/gcc/aarch64-rpi3-linux-gnu/:/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/:/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/:/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/../../../../aarch64-rpi3-linux-gnu/bin/
+        LIBRARY_PATH=/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/:/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/../../../../aarch64-rpi3-linux-gnu/lib/../lib64/:/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/lib/../lib64/:/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib/../lib64/:/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/../../../../aarch64-rpi3-linux-gnu/lib/:/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/lib/:/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_379b4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=cortex-a53' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_379b4.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_379b4
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_379b4.dir/link.txt --verbose=1
+        /home/ayman/x-tools/aarch64-rpi3-linux-gnu/bin/aarch64-rpi3-linux-gnu-g++  -v CMakeFiles/cmTC_379b4.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_379b4 
+        Using built-in specs.
+        COLLECT_GCC=/home/ayman/x-tools/aarch64-rpi3-linux-gnu/bin/aarch64-rpi3-linux-gnu-g++
+        COLLECT_LTO_WRAPPER=/home/ayman/x-tools/aarch64-rpi3-linux-gnu/libexec/gcc/aarch64-rpi3-linux-gnu/13.2.0/lto-wrapper
+        Target: aarch64-rpi3-linux-gnu
+        Configured with: /home/ayman/ITI/fady/embedded_linux/Embedded-linux/crosscompiler/crosstool-ng/.build/aarch64-rpi3-linux-gnu/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=aarch64-rpi3-linux-gnu --prefix=/home/ayman/x-tools/aarch64-rpi3-linux-gnu --exec_prefix=/home/ayman/x-tools/aarch64-rpi3-linux-gnu --with-sysroot=/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot --enable-languages=c,c++ --with-cpu=cortex-a53 --with-pkgversion='crosstool-NG 1.26.0_rc2' --enable-__cxa_atexit --disable-libmudflap --disable-libgomp --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --disable-libmpx --with-gmp=/home/ayman/ITI/fady/embedded_linux/Embedded-linux/crosscompiler/crosstool-ng/.build/aarch64-rpi3-linux-gnu/buildtools --with-mpfr=/home/ayman/ITI/fady/embedded_linux/Embedded-linux/crosscompiler/crosstool-ng/.build/aarch64-rpi3-linux-gnu/buildtools --with-mpc=/home/ayman/ITI/fady/embedded_linux/Embedded-linux/crosscompiler/crosstool-ng/.build/aarch64-rpi3-linux-gnu/buildtools --with-isl=/home/ayman/ITI/fady/embedded_linux/Embedded-linux/crosscompiler/crosstool-ng/.build/aarch64-rpi3-linux-gnu/buildtools --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-multilib --with-local-prefix=/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot --enable-long-long
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.2.0 (crosstool-NG 1.26.0_rc2) 
+        COMPILER_PATH=/home/ayman/x-tools/aarch64-rpi3-linux-gnu/libexec/gcc/aarch64-rpi3-linux-gnu/13.2.0/:/home/ayman/x-tools/aarch64-rpi3-linux-gnu/libexec/gcc/aarch64-rpi3-linux-gnu/13.2.0/:/home/ayman/x-tools/aarch64-rpi3-linux-gnu/libexec/gcc/aarch64-rpi3-linux-gnu/:/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/:/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/:/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/../../../../aarch64-rpi3-linux-gnu/bin/
+        LIBRARY_PATH=/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/:/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/../../../../aarch64-rpi3-linux-gnu/lib/../lib64/:/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/lib/../lib64/:/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib/../lib64/:/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/../../../../aarch64-rpi3-linux-gnu/lib/:/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/lib/:/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_379b4' '-shared-libgcc' '-mcpu=cortex-a53' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_379b4.'
+         /home/ayman/x-tools/aarch64-rpi3-linux-gnu/libexec/gcc/aarch64-rpi3-linux-gnu/13.2.0/collect2 -plugin /home/ayman/x-tools/aarch64-rpi3-linux-gnu/libexec/gcc/aarch64-rpi3-linux-gnu/13.2.0/liblto_plugin.so -plugin-opt=/home/ayman/x-tools/aarch64-rpi3-linux-gnu/libexec/gcc/aarch64-rpi3-linux-gnu/13.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccAemxUp.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot --eh-frame-hdr -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -o cmTC_379b4 /home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib/../lib64/crt1.o /home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib/../lib64/crti.o /home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/crtbegin.o -L/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0 -L/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/../../../../aarch64-rpi3-linux-gnu/lib/../lib64 -L/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/lib/../lib64 -L/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib/../lib64 -L/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/../../../../aarch64-rpi3-linux-gnu/lib -L/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/lib -L/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib CMakeFiles/cmTC_379b4.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/crtend.o /home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib/../lib64/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_379b4' '-shared-libgcc' '-mcpu=cortex-a53' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_379b4.'
+        gmake[1]: Leaving directory '/home/ayman/ITI/fady/embedded_linux/Embedded-linux/7_segment_rpi/build/CMakeFiles/CMakeScratch/TryCompile-LZ7iDz'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/../../../../aarch64-rpi3-linux-gnu/include/c++/13.2.0]
+          add: [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/../../../../aarch64-rpi3-linux-gnu/include/c++/13.2.0/aarch64-rpi3-linux-gnu]
+          add: [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/../../../../aarch64-rpi3-linux-gnu/include/c++/13.2.0/backward]
+          add: [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/include]
+          add: [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/include-fixed]
+          add: [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/../../../../aarch64-rpi3-linux-gnu/include]
+          add: [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/include]
+        end of search list found
+        collapse include dir [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/../../../../aarch64-rpi3-linux-gnu/include/c++/13.2.0] ==> [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/include/c++/13.2.0]
+        collapse include dir [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/../../../../aarch64-rpi3-linux-gnu/include/c++/13.2.0/aarch64-rpi3-linux-gnu] ==> [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/include/c++/13.2.0/aarch64-rpi3-linux-gnu]
+        collapse include dir [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/../../../../aarch64-rpi3-linux-gnu/include/c++/13.2.0/backward] ==> [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/include/c++/13.2.0/backward]
+        collapse include dir [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/include] ==> [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/include]
+        collapse include dir [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/include-fixed] ==> [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/include-fixed]
+        collapse include dir [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/../../../../aarch64-rpi3-linux-gnu/include] ==> [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/include]
+        collapse include dir [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/include] ==> [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/include]
+        implicit include dirs: [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/include/c++/13.2.0;/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/include/c++/13.2.0/aarch64-rpi3-linux-gnu;/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/include/c++/13.2.0/backward;/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/include;/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/include-fixed;/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/include;/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:159 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(aarch64-rpi3-linux-gnu-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/home/ayman/ITI/fady/embedded_linux/Embedded-linux/7_segment_rpi/build/CMakeFiles/CMakeScratch/TryCompile-LZ7iDz']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_379b4/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_379b4.dir/build.make CMakeFiles/cmTC_379b4.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/ayman/ITI/fady/embedded_linux/Embedded-linux/7_segment_rpi/build/CMakeFiles/CMakeScratch/TryCompile-LZ7iDz']
+        ignore line: [Building CXX object CMakeFiles/cmTC_379b4.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/bin/aarch64-rpi3-linux-gnu-g++   -v -o CMakeFiles/cmTC_379b4.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/home/ayman/x-tools/aarch64-rpi3-linux-gnu/bin/aarch64-rpi3-linux-gnu-g++]
+        ignore line: [Target: aarch64-rpi3-linux-gnu]
+        ignore line: [Configured with: /home/ayman/ITI/fady/embedded_linux/Embedded-linux/crosscompiler/crosstool-ng/.build/aarch64-rpi3-linux-gnu/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=aarch64-rpi3-linux-gnu --prefix=/home/ayman/x-tools/aarch64-rpi3-linux-gnu --exec_prefix=/home/ayman/x-tools/aarch64-rpi3-linux-gnu --with-sysroot=/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot --enable-languages=c c++ --with-cpu=cortex-a53 --with-pkgversion='crosstool-NG 1.26.0_rc2' --enable-__cxa_atexit --disable-libmudflap --disable-libgomp --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --disable-libmpx --with-gmp=/home/ayman/ITI/fady/embedded_linux/Embedded-linux/crosscompiler/crosstool-ng/.build/aarch64-rpi3-linux-gnu/buildtools --with-mpfr=/home/ayman/ITI/fady/embedded_linux/Embedded-linux/crosscompiler/crosstool-ng/.build/aarch64-rpi3-linux-gnu/buildtools --with-mpc=/home/ayman/ITI/fady/embedded_linux/Embedded-linux/crosscompiler/crosstool-ng/.build/aarch64-rpi3-linux-gnu/buildtools --with-isl=/home/ayman/ITI/fady/embedded_linux/Embedded-linux/crosscompiler/crosstool-ng/.build/aarch64-rpi3-linux-gnu/buildtools --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-multilib --with-local-prefix=/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot --enable-long-long]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.2.0 (crosstool-NG 1.26.0_rc2) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_379b4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=cortex-a53' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_379b4.dir/']
+        ignore line: [ /home/ayman/x-tools/aarch64-rpi3-linux-gnu/libexec/gcc/aarch64-rpi3-linux-gnu/13.2.0/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_379b4.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=cortex-a53 -mlittle-endian -mabi=lp64 -version -o /tmp/ccnbZWXb.s]
+        ignore line: [GNU C++17 (crosstool-NG 1.26.0_rc2) version 13.2.0 (aarch64-rpi3-linux-gnu)]
+        ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.2.1  MPC version 1.2.1  isl version isl-0.26-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/../../../../aarch64-rpi3-linux-gnu/include/c++/13.2.0]
+        ignore line: [ /home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/../../../../aarch64-rpi3-linux-gnu/include/c++/13.2.0/aarch64-rpi3-linux-gnu]
+        ignore line: [ /home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/../../../../aarch64-rpi3-linux-gnu/include/c++/13.2.0/backward]
+        ignore line: [ /home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/include]
+        ignore line: [ /home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/include-fixed]
+        ignore line: [ /home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/../../../../aarch64-rpi3-linux-gnu/include]
+        ignore line: [ /home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 38711bb186f6513d1390a19dbd0d1c88]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_379b4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=cortex-a53' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_379b4.dir/']
+        ignore line: [ /home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/../../../../aarch64-rpi3-linux-gnu/bin/as -v -EL -march=armv8-a+crc -mabi=lp64 -o CMakeFiles/cmTC_379b4.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccnbZWXb.s]
+        ignore line: [GNU assembler version 2.40 (aarch64-rpi3-linux-gnu) using BFD version (crosstool-NG 1.26.0_rc2) 2.40]
+        ignore line: [COMPILER_PATH=/home/ayman/x-tools/aarch64-rpi3-linux-gnu/libexec/gcc/aarch64-rpi3-linux-gnu/13.2.0/:/home/ayman/x-tools/aarch64-rpi3-linux-gnu/libexec/gcc/aarch64-rpi3-linux-gnu/13.2.0/:/home/ayman/x-tools/aarch64-rpi3-linux-gnu/libexec/gcc/aarch64-rpi3-linux-gnu/:/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/:/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/:/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/../../../../aarch64-rpi3-linux-gnu/bin/]
+        ignore line: [LIBRARY_PATH=/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/:/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/../../../../aarch64-rpi3-linux-gnu/lib/../lib64/:/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/lib/../lib64/:/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib/../lib64/:/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/../../../../aarch64-rpi3-linux-gnu/lib/:/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/lib/:/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_379b4.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mcpu=cortex-a53' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_379b4.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_379b4]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_379b4.dir/link.txt --verbose=1]
+        ignore line: [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/bin/aarch64-rpi3-linux-gnu-g++  -v CMakeFiles/cmTC_379b4.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_379b4 ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/home/ayman/x-tools/aarch64-rpi3-linux-gnu/bin/aarch64-rpi3-linux-gnu-g++]
+        ignore line: [COLLECT_LTO_WRAPPER=/home/ayman/x-tools/aarch64-rpi3-linux-gnu/libexec/gcc/aarch64-rpi3-linux-gnu/13.2.0/lto-wrapper]
+        ignore line: [Target: aarch64-rpi3-linux-gnu]
+        ignore line: [Configured with: /home/ayman/ITI/fady/embedded_linux/Embedded-linux/crosscompiler/crosstool-ng/.build/aarch64-rpi3-linux-gnu/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=aarch64-rpi3-linux-gnu --prefix=/home/ayman/x-tools/aarch64-rpi3-linux-gnu --exec_prefix=/home/ayman/x-tools/aarch64-rpi3-linux-gnu --with-sysroot=/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot --enable-languages=c c++ --with-cpu=cortex-a53 --with-pkgversion='crosstool-NG 1.26.0_rc2' --enable-__cxa_atexit --disable-libmudflap --disable-libgomp --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libsanitizer --disable-libmpx --with-gmp=/home/ayman/ITI/fady/embedded_linux/Embedded-linux/crosscompiler/crosstool-ng/.build/aarch64-rpi3-linux-gnu/buildtools --with-mpfr=/home/ayman/ITI/fady/embedded_linux/Embedded-linux/crosscompiler/crosstool-ng/.build/aarch64-rpi3-linux-gnu/buildtools --with-mpc=/home/ayman/ITI/fady/embedded_linux/Embedded-linux/crosscompiler/crosstool-ng/.build/aarch64-rpi3-linux-gnu/buildtools --with-isl=/home/ayman/ITI/fady/embedded_linux/Embedded-linux/crosscompiler/crosstool-ng/.build/aarch64-rpi3-linux-gnu/buildtools --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-multilib --with-local-prefix=/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot --enable-long-long]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.2.0 (crosstool-NG 1.26.0_rc2) ]
+        ignore line: [COMPILER_PATH=/home/ayman/x-tools/aarch64-rpi3-linux-gnu/libexec/gcc/aarch64-rpi3-linux-gnu/13.2.0/:/home/ayman/x-tools/aarch64-rpi3-linux-gnu/libexec/gcc/aarch64-rpi3-linux-gnu/13.2.0/:/home/ayman/x-tools/aarch64-rpi3-linux-gnu/libexec/gcc/aarch64-rpi3-linux-gnu/:/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/:/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/:/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/../../../../aarch64-rpi3-linux-gnu/bin/]
+        ignore line: [LIBRARY_PATH=/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/:/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/../../../../aarch64-rpi3-linux-gnu/lib/../lib64/:/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/lib/../lib64/:/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib/../lib64/:/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/../../../../aarch64-rpi3-linux-gnu/lib/:/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/lib/:/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_379b4' '-shared-libgcc' '-mcpu=cortex-a53' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_379b4.']
+        link line: [ /home/ayman/x-tools/aarch64-rpi3-linux-gnu/libexec/gcc/aarch64-rpi3-linux-gnu/13.2.0/collect2 -plugin /home/ayman/x-tools/aarch64-rpi3-linux-gnu/libexec/gcc/aarch64-rpi3-linux-gnu/13.2.0/liblto_plugin.so -plugin-opt=/home/ayman/x-tools/aarch64-rpi3-linux-gnu/libexec/gcc/aarch64-rpi3-linux-gnu/13.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccAemxUp.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot --eh-frame-hdr -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -o cmTC_379b4 /home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib/../lib64/crt1.o /home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib/../lib64/crti.o /home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/crtbegin.o -L/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0 -L/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/../../../../aarch64-rpi3-linux-gnu/lib/../lib64 -L/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/lib/../lib64 -L/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib/../lib64 -L/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/../../../../aarch64-rpi3-linux-gnu/lib -L/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/lib -L/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib CMakeFiles/cmTC_379b4.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/crtend.o /home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib/../lib64/crtn.o]
+          arg [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/libexec/gcc/aarch64-rpi3-linux-gnu/13.2.0/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/libexec/gcc/aarch64-rpi3-linux-gnu/13.2.0/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/home/ayman/x-tools/aarch64-rpi3-linux-gnu/libexec/gcc/aarch64-rpi3-linux-gnu/13.2.0/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccAemxUp.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--sysroot=/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib/ld-linux-aarch64.so.1] ==> ignore
+          arg [-X] ==> ignore
+          arg [-EL] ==> ignore
+          arg [-maarch64linux] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_379b4] ==> ignore
+          arg [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib/../lib64/crt1.o] ==> obj [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib/../lib64/crt1.o]
+          arg [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib/../lib64/crti.o] ==> obj [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib/../lib64/crti.o]
+          arg [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/crtbegin.o] ==> obj [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/crtbegin.o]
+          arg [-L/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0] ==> dir [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0]
+          arg [-L/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/../../../../aarch64-rpi3-linux-gnu/lib/../lib64] ==> dir [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/../../../../aarch64-rpi3-linux-gnu/lib/../lib64]
+          arg [-L/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/lib/../lib64] ==> dir [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/lib/../lib64]
+          arg [-L/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib/../lib64] ==> dir [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib/../lib64]
+          arg [-L/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/../../../../aarch64-rpi3-linux-gnu/lib] ==> dir [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/../../../../aarch64-rpi3-linux-gnu/lib]
+          arg [-L/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/lib] ==> dir [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/lib]
+          arg [-L/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib] ==> dir [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib]
+          arg [CMakeFiles/cmTC_379b4.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/crtend.o] ==> obj [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/crtend.o]
+          arg [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib/../lib64/crtn.o] ==> obj [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib/../lib64/crtn.o]
+        collapse obj [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib/../lib64/crt1.o] ==> [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib64/crt1.o]
+        collapse obj [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib/../lib64/crti.o] ==> [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib64/crti.o]
+        collapse obj [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib/../lib64/crtn.o] ==> [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib64/crtn.o]
+        collapse library dir [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0] ==> [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0]
+        collapse library dir [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/../../../../aarch64-rpi3-linux-gnu/lib/../lib64] ==> [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/lib64]
+        collapse library dir [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/lib/../lib64] ==> [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/lib64]
+        collapse library dir [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib/../lib64] ==> [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib64]
+        collapse library dir [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/../../../../aarch64-rpi3-linux-gnu/lib] ==> [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/lib]
+        collapse library dir [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/lib] ==> [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/lib]
+        collapse library dir [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib] ==> [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib64/crt1.o;/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib64/crti.o;/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/crtbegin.o;/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0/crtend.o;/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib64/crtn.o]
+        implicit dirs: [/home/ayman/x-tools/aarch64-rpi3-linux-gnu/lib/gcc/aarch64-rpi3-linux-gnu/13.2.0;/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/lib64;/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/lib64;/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib64;/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/lib;/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/lib;/home/ayman/x-tools/aarch64-rpi3-linux-gnu/aarch64-rpi3-linux-gnu/sysroot/usr/lib]
+        implicit fwks: []
+      
+      
+...
