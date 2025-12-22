@@ -12,6 +12,7 @@ public:
    virtual ~OStream() = default;
 
     virtual void write_digite(int digit) = 0;
+    
 };
 
 

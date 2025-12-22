@@ -1,0 +1,44 @@
+[
+{
+  "directory": "/home/ayman/ITI/fady/embedded_linux/Embedded-linux/7_segment_rpi/build",
+  "command": "/home/ayman/x-tools/aarch64-rpi3-linux-gnu/bin/aarch64-rpi3-linux-gnu-g++   -g -std=gnu++17 -o CMakeFiles/IOStreamProject.dir/src/main.cpp.o -c /home/ayman/ITI/fady/embedded_linux/Embedded-linux/7_segment_rpi/src/main.cpp",
+  "file": "/home/ayman/ITI/fady/embedded_linux/Embedded-linux/7_segment_rpi/src/main.cpp",
+  "output": "CMakeFiles/IOStreamProject.dir/src/main.cpp.o"
+},
+{
+  "directory": "/home/ayman/ITI/fady/embedded_linux/Embedded-linux/7_segment_rpi/build",
+  "command": "/home/ayman/x-tools/aarch64-rpi3-linux-gnu/bin/aarch64-rpi3-linux-gnu-g++   -g -std=gnu++17 -o CMakeFiles/IOStreamProject.dir/src/IOStream.cpp.o -c /home/ayman/ITI/fady/embedded_linux/Embedded-linux/7_segment_rpi/src/IOStream.cpp",
+  "file": "/home/ayman/ITI/fady/embedded_linux/Embedded-linux/7_segment_rpi/src/IOStream.cpp",
+  "output": "CMakeFiles/IOStreamProject.dir/src/IOStream.cpp.o"
+},
+{
+  "directory": "/home/ayman/ITI/fady/embedded_linux/Embedded-linux/7_segment_rpi/build",
+  "command": "/home/ayman/x-tools/aarch64-rpi3-linux-gnu/bin/aarch64-rpi3-linux-gnu-g++   -g -std=gnu++17 -o CMakeFiles/IOStreamProject.dir/src/IStream.cpp.o -c /home/ayman/ITI/fady/embedded_linux/Embedded-linux/7_segment_rpi/src/IStream.cpp",
+  "file": "/home/ayman/ITI/fady/embedded_linux/Embedded-linux/7_segment_rpi/src/IStream.cpp",
+  "output": "CMakeFiles/IOStreamProject.dir/src/IStream.cpp.o"
+},
+{
+  "directory": "/home/ayman/ITI/fady/embedded_linux/Embedded-linux/7_segment_rpi/build",
+  "command": "/home/ayman/x-tools/aarch64-rpi3-linux-gnu/bin/aarch64-rpi3-linux-gnu-g++   -g -std=gnu++17 -o CMakeFiles/IOStreamProject.dir/src/OStream.cpp.o -c /home/ayman/ITI/fady/embedded_linux/Embedded-linux/7_segment_rpi/src/OStream.cpp",
+  "file": "/home/ayman/ITI/fady/embedded_linux/Embedded-linux/7_segment_rpi/src/OStream.cpp",
+  "output": "CMakeFiles/IOStreamProject.dir/src/OStream.cpp.o"
+},
+{
+  "directory": "/home/ayman/ITI/fady/embedded_linux/Embedded-linux/7_segment_rpi/build",
+  "command": "/home/ayman/x-tools/aarch64-rpi3-linux-gnu/bin/aarch64-rpi3-linux-gnu-g++   -g -std=gnu++17 -o CMakeFiles/IOStreamProject.dir/src/stream.cpp.o -c /home/ayman/ITI/fady/embedded_linux/Embedded-linux/7_segment_rpi/src/stream.cpp",
+  "file": "/home/ayman/ITI/fady/embedded_linux/Embedded-linux/7_segment_rpi/src/stream.cpp",
+  "output": "CMakeFiles/IOStreamProject.dir/src/stream.cpp.o"
+},
+{
+  "directory": "/home/ayman/ITI/fady/embedded_linux/Embedded-linux/7_segment_rpi/build",
+  "command": "/home/ayman/x-tools/aarch64-rpi3-linux-gnu/bin/aarch64-rpi3-linux-gnu-g++   -g -std=gnu++17 -o CMakeFiles/IOStreamProject.dir/src/SevenSegment.cpp.o -c /home/ayman/ITI/fady/embedded_linux/Embedded-linux/7_segment_rpi/src/SevenSegment.cpp",
+  "file": "/home/ayman/ITI/fady/embedded_linux/Embedded-linux/7_segment_rpi/src/SevenSegment.cpp",
+  "output": "CMakeFiles/IOStreamProject.dir/src/SevenSegment.cpp.o"
+},
+{
+  "directory": "/home/ayman/ITI/fady/embedded_linux/Embedded-linux/7_segment_rpi/build",
+  "command": "/home/ayman/x-tools/aarch64-rpi3-linux-gnu/bin/aarch64-rpi3-linux-gnu-g++   -g -std=gnu++17 -o CMakeFiles/IOStreamProject.dir/src/gpio_27.cpp.o -c /home/ayman/ITI/fady/embedded_linux/Embedded-linux/7_segment_rpi/src/gpio_27.cpp",
+  "file": "/home/ayman/ITI/fady/embedded_linux/Embedded-linux/7_segment_rpi/src/gpio_27.cpp",
+  "output": "CMakeFiles/IOStreamProject.dir/src/gpio_27.cpp.o"
+}
+]
