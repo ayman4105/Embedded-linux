@@ -52,6 +52,7 @@ std::mutex mx;
 std::condition_variable cv;
 bool state_changed = false; // flag to indicate LED state changed
 char current_state = '0';
+bool done = false;
 
 void write_log(const std::string &msg) {
     std::lock_guard<std::mutex> lock(mx);
@@ -62,47 +63,48 @@ void write_log(const std::string &msg) {
 }
 
 
-// void monitor_caps(file_actions &led) {
-//     char last_state = '0';
-//     while(true){
-//         std::unique_lock<std::mutex> lock(mx);
-//         cv.wait(lock, [](){ return state_changed; }); // wait for signal
-//         state_changed = false; // reset flag
-
-//         if(current_state != last_state){ // detect change
-//             if(current_state == '1'){
-//                 std::cout << "Caps Lock turned ON" << std::endl;
-//                 write_log("Caps Lock turned ON");
-//             } else {
-//                 std::cout << "Caps Lock turned OFF" << std::endl;
-//                 write_log("Caps Lock turned OFF");
-//             }
-//             last_state = current_state;
-//         }
-//     }
-// }
+void monitor_caps(file_actions &led) {
+    char last_state = '0';
+    while(true){
+        std::unique_lock<std::mutex> lock(mx);
+        cv.wait(lock, [](){ return state_changed || done; }); // wait for signal
+        if(done) break;
+        state_changed = false; // reset flag
+        lock.unlock();
+        if(current_state != last_state){ // detect change
+            if(current_state == '1'){
+                std::cout << "Caps Lock turned ON" << std::endl;
+                write_log("Caps Lock turned ON");
+            } else {
+                std::cout << "Caps Lock turned OFF" << std::endl;
+                write_log("Caps Lock turned OFF");
+            }
+            last_state = current_state;
+        }
+    }
+}
 
 
 // Monitor thread
-void monitor_caps(file_actions &led) {
-    char state;
-    char last_state = '0';
-    while(true){
-        if(led.read_byte(state) > 0){
-            if(state != last_state){ // detect change
-                if(state == '1'){
-                    std::cout << "Caps Lock turned ON" << std::endl;
-                    write_log("Caps Lock turned ON");
-                } else {
-                    std::cout << "Caps Lock turned OFF" << std::endl;
-                    write_log("Caps Lock turned OFF");
-                }
-                last_state = state;
-            }
-        }
-        std::this_thread::sleep_for(std::chrono::milliseconds(300));
-    }
-}
+// void monitor_caps(file_actions &led) {
+//     char state;
+//     char last_state = '0';
+//     while(true){
+//         if(led.read_byte(state) > 0){
+//             if(state != last_state){ // detect change
+//                 if(state == '1'){
+//                     std::cout << "Caps Lock turned ON" << std::endl;
+//                     write_log("Caps Lock turned ON");
+//                 } else {
+//                     std::cout << "Caps Lock turned OFF" << std::endl;
+//                     write_log("Caps Lock turned OFF");
+//                 }
+//                 last_state = state;
+//             }
+//         }
+//         std::this_thread::sleep_for(std::chrono::milliseconds(300));
+//     }
+// }
 
 int main() {
     std::string caps_lock_path = "/sys/class/leds/input4::capslock/brightness";
@@ -128,11 +130,20 @@ int main() {
             std::lock_guard<std::mutex> lock(mx);
             current_state = '0'; // turn LED OFF
             state_changed = true;
+
         }
         cv.notify_one();
         caps_led.write_byte(0); // actually turn LED OFF
         std::this_thread::sleep_for(std::chrono::seconds(1));
     }
+
+    // Signal monitor thread to finish
+    {
+        std::lock_guard<std::mutex> lock(mx);
+        done = true;
+        state_changed = true; // wake thread if waiting
+    }
+        cv.notify_one();
 
 
     // // Main thread: toggle LED ON/OFF
