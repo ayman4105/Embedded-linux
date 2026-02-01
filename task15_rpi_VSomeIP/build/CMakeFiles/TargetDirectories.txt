@@ -1,0 +1,4 @@
+/home/ayman/ITI/fady/embedded_linux/Embedded-linux/task15_rpi_VSomeIP/build/CMakeFiles/server.dir
+/home/ayman/ITI/fady/embedded_linux/Embedded-linux/task15_rpi_VSomeIP/build/CMakeFiles/client.dir
+/home/ayman/ITI/fady/embedded_linux/Embedded-linux/task15_rpi_VSomeIP/build/CMakeFiles/edit_cache.dir
+/home/ayman/ITI/fady/embedded_linux/Embedded-linux/task15_rpi_VSomeIP/build/CMakeFiles/rebuild_cache.dir

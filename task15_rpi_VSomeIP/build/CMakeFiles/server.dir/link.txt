@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/server.dir/server.cpp.o -o server  -Wl,-rpath,/usr/local/lib /usr/local/lib/libvsomeip3.so.3.5.5 
