@@ -159,7 +159,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/g++"
+			"value" : "/usr/bin/g++-11"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER_AR",
@@ -175,7 +175,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/gcc-ar-13"
+			"value" : "/usr/bin/gcc-ar-11"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER_RANLIB",
@@ -191,7 +191,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/gcc-ranlib-13"
+			"value" : "/usr/bin/gcc-ranlib-11"
 		},
 		{
 			"name" : "CMAKE_CXX_FLAGS",
@@ -287,7 +287,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/gcc"
+			"value" : "/usr/bin/gcc-11"
 		},
 		{
 			"name" : "CMAKE_C_COMPILER_AR",
@@ -303,7 +303,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/gcc-ar-13"
+			"value" : "/usr/bin/gcc-ar-11"
 		},
 		{
 			"name" : "CMAKE_C_COMPILER_RANLIB",
@@ -319,7 +319,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/gcc-ranlib-13"
+			"value" : "/usr/bin/gcc-ranlib-11"
 		},
 		{
 			"name" : "CMAKE_C_FLAGS",
