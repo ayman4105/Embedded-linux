@@ -6,6 +6,8 @@ This lab guides you through building a complete, working initramfs (initial RAM 
 
 **Target Platform:** Raspberry Pi 3B+ (via serial console)
 
+![alt text](image.png)
+
 ---
 
 ## 📚 Understanding Check - Questions & Answers
